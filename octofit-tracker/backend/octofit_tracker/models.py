@@ -1,5 +1,5 @@
 
-from djongo import models
+from django import models
 
 class Team(models.Model):
 	name = models.CharField(max_length=100, unique=True)
